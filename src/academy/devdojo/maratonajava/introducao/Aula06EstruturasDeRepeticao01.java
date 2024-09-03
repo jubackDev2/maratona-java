@@ -13,9 +13,9 @@ public class Aula06EstruturasDeRepeticao01 {
 
         // 1. while ( ) // assim como if, dentro do while, precisamos colocar valores booleano!
 
-        String count = "burro";
+        int count = 0;
 
-        while (count == "burro") {
+        while (count <10 ) {
             System.out.println(count);
         }
 
