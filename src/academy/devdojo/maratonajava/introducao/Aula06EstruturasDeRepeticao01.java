@@ -17,6 +17,8 @@ public class Aula06EstruturasDeRepeticao01 {
 
         while (count<10) {
             System.out.println(count);
+            count +=1;
+
         }
 
 
