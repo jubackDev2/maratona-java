@@ -1,12 +1,24 @@
 package academy.devdojo.maratonajava.introducao;
 
 public class Aula06EstruturasDeRepeticao01 {
+
     public static void main(String[] args) {
-        // while, do while, for
+
+
+         // ####################     laços de repetições ####################################
+
+        // Os laços de repetição em Java permitem executar um bloco de código várias vezes
+
+        // As estruturas de repetição precisa de uma informação -> até quando ou ate quanto ela precisa ficar contando/executando
+
+        // 1. while ( ) // assim como if, dentro do while, precisamos colocar valores booleano!
 
         int count = 0;
-        while (count <10){
+
+        while (count<10) {
             System.out.println(count);
         }
+
+
     }
 }
