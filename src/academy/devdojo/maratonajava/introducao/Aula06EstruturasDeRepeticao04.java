@@ -6,7 +6,7 @@ public class Aula06EstruturasDeRepeticao04 {
     public static void main(String[] args) {
         // dado um valor de um carro, descubra, em quantas vezes ele pode ser parcelado
         // valor de um carro 50 mil
-        // a condição é que o valor da parcela tem que ser >= 1000
+        // a condição é que o valor da parcela tem que ser valorParcela >= 1000
 
 
         int valorCarro = 80000;
