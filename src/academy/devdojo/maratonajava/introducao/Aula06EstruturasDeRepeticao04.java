@@ -9,64 +9,22 @@ public class Aula06EstruturasDeRepeticao04 {
         // a condição é que o valor da parcela tem que ser >= 1000
 
 
-        /*
-         for (int parcela = 1; parcela < valorCarro; parcela++)
-
-         o laço for vai dividir o valor do carro (valorCarro = 80.000) pelo número de parcelas, começando de 1 e indo até o valor do carro (ou seja, 80.000 iterações)
-
-         */
-
-
-
-
-
         int valorCarro = 80000;
 
-        for (int parcela = 1; parcela < valorCarro; parcela++) {
-            int res = valorCarro/parcela; //
+        for (int parcela = 1; parcela < valorCarro; parcela++) {  //   vai dividir o valor do carro  pelo número de parcelas, começando de 1 e indo até o valor do carro
+            int res = valorCarro / parcela; //  A variavel "res" que criei calcula o valor da parcela, Então se a parcela for 1, o resultado será 80.000/1...
 
-            if (res >= 1000 ) {
+            if (res >= 1000) {
 
-                System.out.println("parcela::: "+ parcela+" $ "+ res);
-
-
+                System.out.println("parcela::: " + parcela + " $ " + res);
 
 
-            }else {
+            } else {
                 break;
             }
 
 
-
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
