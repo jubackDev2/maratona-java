@@ -1,0 +1,21 @@
+ // Arrays
+
+        espaço em memoria que pode ter mais de um valor
+
+        sintaaxe  -> int [ ] idades; - isso aqui na verdade é uma variavel do tipo
+        reference, não é um tipo primitivo mais
+
+        obs: variavel do tipo primitivo não poddemos iniciar com "null"
+        somente tipos de referencia podem ser inicializados com null
+
+        e para declarar, precisamos usar a sintaxe
+
+        #new - int [] idades = new int [3];
+        obs: no Java, todas as vezes que voce declara um array voce obrigatoriamente
+        precisa dizer quanto de espaços em memoria voce está alocando.  [ 3 ].
+
+        todas as vezes que voce cria um array esse array tem posições, posição 0, posição
+        1, posição 2...
+
+
+
