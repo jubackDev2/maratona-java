@@ -29,8 +29,9 @@
         - idades [1] = 25/;
 
      - continuação aula pt 02
-         padroes dentro dos tipos que nós podemos criar arrays:
-         Tipos ->  primitivo ou reference
+     nós sabemos que, ao criar arrays nós temos a variavel do lado esquerdo, que é do tipo
+     reference e a do lado direito que é um objeto. lembrando que um array é sempre um objeto
+
 
 
 
