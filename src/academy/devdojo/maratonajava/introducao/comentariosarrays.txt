@@ -21,12 +21,16 @@
         um valor. exemplo: 0, se for do tipo numérico, ou 0.0 se for do tipo ponto
         flutuante e se for String vai ser nulo.
 
-        ----------------------------
+
 
         Atribuindo valores no array
 
         - idades [0] = 21;
         - idades [1] = 25/;
+
+     - continuação aula pt 02
+         padroes dentro dos tipos que nós podemos criar arrays:
+         Tipos ->  primitivo ou reference
 
 
 
