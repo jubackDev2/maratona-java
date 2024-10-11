@@ -12,6 +12,8 @@ public class Aula07Arrays01 {
        for (int i = 0; i < nomes.length; i++){ // nomes.length retorna o tamanho do array
            System.out.println(nomes[i]);
        }
+       nomes = new String[5];
+
 
 
 
