@@ -4,14 +4,15 @@ public class Aula07Arrays01 {
     public static void main(String[] args) {
 
 
-        int []  idades = new int[3]; // tamanho do array
-        idades[0] = 21;
-        idades[1] = 15;
-        idades[2] = 11;
+       String[] nomes = new String[3];
+       nomes[0] = "Ana";
+       nomes[1] = "cloves";
+       nomes[2] = "caio";
 
-        System.out.println(idades[0]);
-        System.out.println(idades[1]);
-        System.out.println(idades[2]);
+       for (int i = 0; i < nomes.length; i++){ // nomes.length retorna o tamanho do array
+           System.out.println(nomes[i]);
+       }
+
 
 
 

@@ -12,5 +12,6 @@ public class Aula06EstruturasDeRepeticao05 {
             System.out.println("parcela "+ parcela + " $ "+ valorParcela);
 
         }
+        System.out.println("oi");
     }
 }

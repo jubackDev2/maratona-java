@@ -33,5 +33,19 @@
      reference e a do lado direito que é um objeto. lembrando que um array é sempre um objeto
 
 
+     Todas as vezes que voce declarar uma variavel do tipo primitivo, array ou uma variavel
+     de classe
+. os tipos primitivos tem valores padroes que nao sao aplicados quando voce ta dentro de um
+  escopo local, ou seja, dentro de um método.
 
+  exemplo:
+  int idade; // aqui, ela nao tem uma inicialização padrao.
+
+  Para array, ou quando voce declara uma variave fora do método, elas tem um padrao de inicialização
+  // byte, short, int, long, float, e double o valor é 0
+  // char '\u0000' ele irá imprimir um espaço em branco
+  // boolean valor padrao é false.
+
+  todos os tipos reference
+  - String o valor padrao é null
 
