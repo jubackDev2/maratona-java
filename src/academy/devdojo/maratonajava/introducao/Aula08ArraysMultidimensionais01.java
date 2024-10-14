@@ -19,7 +19,7 @@ public class Aula08ArraysMultidimensionais01 {
         dias [2][1]= 28;
         dias [2][2] = 31;
 
-       for (int i = 0; i < dias.length; i++) { // Retorna o número de linhas no array multidimensional.
+       for (int i = 0; i < dias.length; i++) { // dias.length Retorna o número de linhas no array multidimensional.
            System.out.println(i);
 
        }
