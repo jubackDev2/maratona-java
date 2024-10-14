@@ -31,5 +31,11 @@ public class Aula08ArraysMultidimensionais01 {
            }
        }
 
+
+       /*
+
+       o foreach vai pegar cada uma das posições, o tipo, e criar uma variavel de referencia
+        */
+
     }
 }
