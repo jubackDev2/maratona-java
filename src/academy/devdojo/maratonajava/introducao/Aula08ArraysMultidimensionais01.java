@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.introducao;
 
 public class Aula08ArraysMultidimensionais01 {
     public static void main(String[] args) {
-        int [] [] dias = new int [3] [3];
+            int [] [] dias = new int [3] [3];
 
         // dias -> 0, 1, 2 -> i
 
@@ -19,12 +19,17 @@ public class Aula08ArraysMultidimensionais01 {
         dias [2][1]= 28;
         dias [2][2] = 31;
 
-       for (int i = 0; i < dias.length; i++) { // dias.length Retorna o número de linhas no array multidimensional.
-           System.out.println(i);
+       //       for (int i = 0; i < dias.length; i++) { // dias.length: Retorna o número de linhas no array multidimensional.
+          //        for (int j = 0; j < dias[i].length; j++){
+            //          System.out.println(dias[i][j]);
+         //                         }
+       //                   }
 
+       for (int[] arrBase: dias){
+           for (int num: arrBase){
+               System.out.println(num);
+           }
        }
-
-
 
     }
 }

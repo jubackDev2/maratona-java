@@ -15,9 +15,9 @@ public class Aula07Arrays03 {
         //   --  nova forma de imprimir arrays
             // foreach
             //  se voce precisar acessar um indice especifico, va para o for indexado. ->for(int i =0; i < numeros3.length; i++)
-        for(int num:numeros3) {
-            System.out.println(num);
-        }
+                for(int num:numeros3) {
+                    System.out.println(num);
+                }
 
 
     }
