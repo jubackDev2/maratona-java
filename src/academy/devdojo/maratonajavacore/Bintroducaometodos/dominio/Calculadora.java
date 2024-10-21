@@ -5,7 +5,7 @@ public class Calculadora {
     // a primeira parte de um metodo sempre vai ser um modificador de acesso -> public
     // a seggunda parte é o retorno, o metodo ele retorna alguma coisa ou nao retorna nada.
      /*
-      vamos começar com o fato de não retornar nada: void e em seguida nos temos o nome do metodos
+      vamos começar com o fato de não retornar nada: void e em seguida nos temos o nome do metodo
       */
 
     public void somaDoisNumeros(){
