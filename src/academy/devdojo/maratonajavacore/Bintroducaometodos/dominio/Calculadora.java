@@ -4,8 +4,11 @@ public class Calculadora {
 
     // a primeira parte de um metodo sempre vai ser um modificador de acesso -> public
     // a seggunda parte é o retorno, o metodo ele retorna alguma coisa ou nao retorna nada.
+
      /*
       vamos começar com o fato de não retornar nada: void e em seguida nos temos o nome do metodo
+
+      importante: se voce tem um metodo com mais de 3 argumentos, significa seu metodo está fazendo muita coisa.. não é uma boa pratica
       */
 
     public void somaDoisNumeros(){
