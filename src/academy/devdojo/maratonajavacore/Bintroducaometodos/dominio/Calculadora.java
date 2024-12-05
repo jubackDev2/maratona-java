@@ -29,6 +29,8 @@ public class Calculadora {
        importante: podemos usar o return para metodos void, também
 
        importante: quando voce tem um metodo System.out.println(), você nao pode colcoar dentro dele uma chamada se um metodo que nao retorna um valor
+
+       uma hora eu irei apagar esse comentários, por enqunto que nao passo para o notion
       */
 
     public void somaDoisNumeros(){
