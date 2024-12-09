@@ -10,11 +10,19 @@ public class EstudanteTest01 {
         Estudante estudante02 = new Estudante();
         ImpressoraEstudante impressora = new ImpressoraEstudante();
 
+        estudante01.nome = "Ana";
+        estudante01.idade = 22;
+        estudante01.sexo = 'F';
+
+        estudante02.nome = "Marcos";
+        estudante02.idade = 17;
+        estudante02.sexo = 'M';
+
+      impressora.imprime(estudante01);
+      impressora.imprime(estudante02);
 
 
 
-        impressora.imprime(estudante01);
-        impressora.imprime(estudante02);
 
 
 
