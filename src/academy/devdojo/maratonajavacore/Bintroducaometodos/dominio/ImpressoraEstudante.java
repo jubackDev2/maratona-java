@@ -5,9 +5,7 @@ public class ImpressoraEstudante {
     // criei uma classe que tem a função para imprimir  estudantes.
     // como eu quero imprimir estudantes, eu vou precisar de uma variavel do tipo Estudantes. (isso no metodo)
         // tenha cuidado quando for importar a variavel Estudante, para não importar do pacote errado
-        // nem eu entendi esse conceito, quem dirá vocês, mas revisem ehuhue
-        // terceira vez revisando
-        // entendi finalmente
+
 
         /*
          * importante:
