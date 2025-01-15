@@ -18,8 +18,15 @@
             estudante02.idade = 17;
             estudante02.sexo = 'M';
 
+
+
               impressora.imprime(estudante01);
               impressora.imprime(estudante02);
+            System.out.println("############");
+            impressora.imprime(estudante01);
+            impressora.imprime(estudante02);
+
+
 
 
 

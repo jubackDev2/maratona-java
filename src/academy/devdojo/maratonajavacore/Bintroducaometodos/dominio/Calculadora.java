@@ -38,7 +38,7 @@ public class Calculadora {
 
     }
 
-    public void subraiDoisNumeros (){
+    public void subtraiDoisNumeros (){
         System.out.println(21-2);
     }
 

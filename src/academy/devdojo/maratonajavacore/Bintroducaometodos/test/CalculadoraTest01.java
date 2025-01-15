@@ -6,7 +6,7 @@ public class CalculadoraTest01 {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
         calculadora.somaDoisNumeros();
-        calculadora.subraiDoisNumeros();
+        calculadora.subtraiDoisNumeros();
 
         System.out.println("finalizando CalculadoraTest01");
     }

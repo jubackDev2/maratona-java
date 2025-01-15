@@ -11,7 +11,12 @@ public class ImpressoraEstudante {
          * importante:
          * quando voce passa objeto como argumento, voce na verdade está passando a  referencia, aonde aquele objeto está guardado
          *
+         *
+         * Quando voce está passando parametros, via referencia estamos passando a propria  referencia
+         *
+         *
          * */
+
 
 
 
@@ -21,10 +26,14 @@ public class ImpressoraEstudante {
 
         System.out.println("--------------------");
 
+
         System.out.println(estudante.nome);
         System.out.println(estudante.idade);
         System.out.println(estudante.sexo);
 
 
+
     }
+
+
 }
